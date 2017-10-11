@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background: url('img/Logo.jpg') no-repeat center center fixed;
+  background: url('../img/Logo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -15,13 +15,22 @@ body {
 
 
 @font-face {
-  font-family: "My Custom Font";
-  src: url('./fonts/8-BIT WONDER.TTF') format("truetype");
+  font-family: "HeaderFont";
+  src: url('../fonts/8-BIT WONDER.TTF') format("truetype");
 }
 
+@font-face {
+  font-family: "SectionFont";
+  src: url('../fonts/Stencil8bit-Regular.otf') format("truetype");
+}
 
-h1, h2, h3, h4, h5, h6, .text-heading {
-  font-family: "My Custom Font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1, h3, h4, h5, h6, .text-heading {
+  font-family: "HeaderFont", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 
+{
+  font-family: "SectionFont", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
