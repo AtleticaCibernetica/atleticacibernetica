@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background: url('C:/Users/jonat/Documents/Atlética/atleticacibernetica/img/Logo.jpg') no-repeat center center fixed;
+  background: url('./img/Logo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -16,7 +16,7 @@ body {
 
 @font-face {
   font-family: "My Custom Font";
-  src: url('C:/Users/jonat/Documents/Atlética/8-BIT WONDER.TTF') format("truetype");
+  src: url('./fonts/8-BIT WONDER.TTF') format("truetype");
 }
 
 
