@@ -4,9 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
+ /* 
+  Background 1920x1080 pixels
+ */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background: url('../img/logo.jpg') no-repeat center center fixed;
+  background: url('../img/bg/Logo1024x1024.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -41,15 +44,20 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   line-height: 1;
+  padding: 10px;
+  
 }
 
 .tagline-lower {
   font-size: 1.2rem;
   line-height: 1;
 }
+.text-heading{
+  color: rgba(0, 0, 0, 0.5);
+}
 
 .text-expanded {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .text-shadow {
@@ -61,7 +69,7 @@ h1 {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(221, 221, 221, 0.9);
 }
 
 .bg-overlay {
@@ -69,8 +77,8 @@ h1 {
 }
 
 hr.divider {
-  border-color: #292b2c;
-  max-width: 250px;
+  border-color: #000000;
+  max-width: 250px; 
 }
 
 .map-container iframe {
