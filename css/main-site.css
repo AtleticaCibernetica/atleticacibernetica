@@ -47,6 +47,10 @@ h1 {
   padding: 10px;
   
 }
+.navbar-brand{
+  font-family: "HeaderFont", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
 
 .tagline-lower {
   font-size: 1.2rem;
